@@ -2,7 +2,7 @@ require("dotenv").config();
 const PORT = process.env.PORT || 8800;
 const io = require("socket.io")(PORT, {
   cors: {
-    origin: "https://main--marvelous-froyo-155095.netlify.app/",
+    origin: "https://socialint.netlify.app/",
   },
 });
 
